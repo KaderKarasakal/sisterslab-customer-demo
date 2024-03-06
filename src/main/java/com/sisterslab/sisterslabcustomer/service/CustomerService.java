@@ -15,6 +15,7 @@ import java.util.Optional;
 public class CustomerService {
     private final CustomerRepository customerRepository;
 
+
     public Customer saveCustomer(Customer customer) {
         return customerRepository.save(customer);
     }
@@ -43,5 +44,9 @@ public class CustomerService {
             return "Success!";
         }
         return null;
+    }
+    public void deleteCustomerById(Long id) {
+        customerRepository.deleteById(id);
+
     }
 }
