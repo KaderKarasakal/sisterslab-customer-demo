@@ -1,2 +1,2 @@
-# sisterslab-customer-demo
+# sisterslab-customer-SpringBoot
 Spring boot project
